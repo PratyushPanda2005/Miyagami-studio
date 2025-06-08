@@ -8,6 +8,10 @@ import Lenis from "lenis";
 import Card2 from "./components/Card2";
 import HeroMob from "./components/HeroMob";
 import Card3 from "./components/Card3";
+import Card4 from "./components/Card4";
+import CardSection from "./components/CardSection";
+import Footer from "./components/Footer";
+import Info from "./components/Info";
 gsap.registerPlugin(ScrollTrigger);
 export default function Home() {
   const mainRef = useRef<HTMLDivElement>(null);
@@ -28,15 +32,17 @@ export default function Home() {
       scrollTrigger: {
         trigger: mainRef.current,
         start: "25% center",
-        end: "center center",
+        end: "bottom center",
         scrub: true,
+        markers: false
       },
     });
+
   }, []);
 
   return (
     <>
-      <div ref={mainRef} className="bg-black">
+      <div ref={mainRef} className="bg-black relative z-5">
         <HeroMob/>
         <div className="max-md:hidden">
           <Hero />
@@ -45,7 +51,11 @@ export default function Home() {
       </div>
       <Card2 />
       <Card3/>
-      <div className="min-h-screen"></div>
+      <Card4/>
+      <CardSection/>
+      <Info/>
+      <Footer/>
+      <div className="min-h-screen"/>
     </>
   );
 }

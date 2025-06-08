@@ -54,7 +54,7 @@ const HeroMob = () => {
   return (
     <div
       ref={heroRef}
-      className="relative md:hidden overflow-hidden flex justify-center items-center h-svh"
+      className="relative z-5 md:hidden overflow-hidden flex justify-center items-center h-svh font-clashgrotesk"
     >
       {/* Main Logo (centered) */}
       <div className="text-white flex justify-center items-center w-[60%] z-10">

@@ -24,7 +24,7 @@ const Card1 = () => {
   return (
     <div
       ref={containerRef}
-      className="min-h-screen flex justify-center items-center max-sm:px-4 px-10"
+      className="min-h-screen flex justify-center items-center max-sm:px-4 px-10 font-clashgrotesk"
     >
       <div
         ref={cardOneRef}
@@ -54,7 +54,7 @@ const Card1 = () => {
                   }}
                 />
               </span>
-              <span className="tracking-tight text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl font-semibold">rld</span>
+              <span className="tracking-tight text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl  font-semibold">rld</span>
             </div>
             <div className="text-white text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl font-semibold">
               <h1 className="tracking-tight">

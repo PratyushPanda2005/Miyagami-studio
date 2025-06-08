@@ -5,11 +5,18 @@
   --foreground: #171717;
 }
 
+@font-face {
+	font-family: 'ClashGrotesk';
+	src: url('../../public/fonts/ClashGrotesk-Variable.ttf');
+}
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-clashgrotesk: 'ClashGrotesk'
 }
 
 @media (prefers-color-scheme: dark) {

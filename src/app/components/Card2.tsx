@@ -22,7 +22,7 @@ const Card2 = () => {
   return (
     <div
       ref={containerRef}
-      className="min-h-screen flex justify-center items-center max-sm:px-4 bg-[#ddfa00]"
+      className="min-h-screen flex justify-center items-center max-sm:px-4 bg-[#ddfa00] relative z-5 font-clashgrotesk"
     >
       <div
         ref={cardOneRef}
