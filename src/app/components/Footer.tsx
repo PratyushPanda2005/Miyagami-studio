@@ -2,7 +2,7 @@ import React from 'react'
 import { ArrowRight } from 'lucide-react'
 const Footer = () => {
   return (
-    <section className='min-h-screen w-full bg-black py-20 max-sm:px-4 px-10 flex justify-center text-white fixed top-0 left-0 font-clashgrotesk'>
+    <section className='min-h-screen w-full bg-black py-20 max-sm:px-4 px-10 flex justify-center items-end max-md:items-start text-white fixed top-0 left-0 font-clashgrotesk'>
         <div className='w-full max-w-7xl h-full'>
             <div className='flex max-md:flex-col justify-between max-md:gap-4'>
                 <div className='flex flex-col max-md:gap-4 gap-10'>
