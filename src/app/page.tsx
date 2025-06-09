@@ -12,6 +12,7 @@ import Card4 from "./components/Card4";
 import CardSection from "./components/CardSection";
 import Footer from "./components/Footer";
 import Info from "./components/Info";
+import SwiperGallery from "./components/SwiperGallery";
 gsap.registerPlugin(ScrollTrigger);
 export default function Home() {
   const mainRef = useRef<HTMLDivElement>(null);
@@ -53,6 +54,7 @@ export default function Home() {
       <Card3/>
       <Card4/>
       <CardSection/>
+      <SwiperGallery/>
       <Info/>
       <Footer/>
       <div className="min-h-screen"/>
